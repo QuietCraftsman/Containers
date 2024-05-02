@@ -6,6 +6,6 @@ Compile and run the container.
 
 **NOTE**: For SELinux distributions, use the `:Z` appendix on the volume mount to make sure SELinux doesn't block you from using the mount.
 
-```powershell
+```bash
 podman run -it --rm --user qc -v $(pwd):/home/qc/files:Z [name of your image]
 ```
